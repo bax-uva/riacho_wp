@@ -1,0 +1,942 @@
+# Translation of Plugins - Easy Updates Manager - Stable (latest release) in Portuguese (Brazil)
+# This file is distributed under the same license as the Plugins - Easy Updates Manager - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-06-01 16:16:58+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Plugins - Easy Updates Manager - Stable (latest release)\n"
+
+#: includes/MPSUM_Admin.php:826
+msgid "Hey there! If Easy Updates Manager has helped you, can you do us a HUGE favor and give us a rating? THANKS! - The Easy Updates Manager team"
+msgstr "Olá! Se o Easy Updates Manager tem te ajudado, você pode nos fazer um grande favor e nos dar sua classificação? OBRIGADO! - A equipe do Easy Updates Manager"
+
+#: includes/MPSUM_Admin.php:829
+msgid "No thanks!"
+msgstr "Não, obrigado!"
+
+#: includes/MPSUM_Admin.php:828
+msgid "Sure! Absolutely."
+msgstr "Claro! Com certeza."
+
+#: includes/MPSUM_Admin_Advanced.php:269
+msgid "This feature enables a Logs tab which will log all updates that occur. <a href=\"%s\">See Logs on YouTube</a>."
+msgstr "Este recurso habilita uma aba de Registros que manterá um histórico de todas as atualizações que ocorrerem. <a href=\"%s\">Veja os Registros no YouTube</a>."
+
+#: includes/MPSUM_Admin_Screen_Options.php:81
+msgid "Items Per Page"
+msgstr "Itens por página"
+
+#: includes/MPSUM_Admin.php:820
+msgctxt "Show or hide the dashboard"
+msgid "Show Dashboard"
+msgstr "Mostrar o painel"
+
+#: includes/MPSUM_Admin.php:819
+msgctxt "Show or hide admin tabs"
+msgid "Tabs"
+msgstr "Abas"
+
+#: includes/MPSUM_Logs_List_Table.php:204
+msgid "Filter"
+msgstr "Filtro"
+
+#: includes/MPSUM_Logs_List_Table.php:180
+msgctxt "Show log items that are manual updates only"
+msgid "Manual Updates"
+msgstr "Atualizações manuais"
+
+#: includes/MPSUM_Logs_List_Table.php:179
+msgctxt "Show log items that are automatic updates only"
+msgid "Automatic Updates"
+msgstr "Atualizações automáticas"
+
+#: includes/MPSUM_Logs_List_Table.php:178
+msgid "All Actions"
+msgstr "Todas as ações"
+
+#: includes/MPSUM_Logs_List_Table.php:176
+msgid "Filter by Action"
+msgstr "Filtrar por ação"
+
+#: includes/MPSUM_Logs_List_Table.php:168
+msgctxt "Show status updates that are not successful"
+msgid "Failures"
+msgstr "Falhas"
+
+#: includes/MPSUM_Logs_List_Table.php:167
+msgctxt "Show status updates that are successful"
+msgid "Success"
+msgstr "Sucesso"
+
+#: includes/MPSUM_Logs_List_Table.php:166
+msgid "All Statuses"
+msgstr "Todos os status"
+
+#: includes/MPSUM_Logs_List_Table.php:164
+msgid "Filter by Status"
+msgstr "Filtrar por status"
+
+#: includes/MPSUM_Logs_List_Table.php:156
+msgctxt "Show WordPress translation updates"
+msgid "Translations"
+msgstr "Traduções"
+
+#: includes/MPSUM_Logs_List_Table.php:155
+msgctxt "Show WordPress Theme updates"
+msgid "Themes"
+msgstr "Temas"
+
+#: includes/MPSUM_Logs_List_Table.php:154
+msgctxt "Show WordPress Plugin updates"
+msgid "Plugins"
+msgstr "Plugins"
+
+#: includes/MPSUM_Logs_List_Table.php:153
+msgctxt "Show WordPress core updates"
+msgid "Core"
+msgstr "Núcleo"
+
+#: includes/MPSUM_Logs_List_Table.php:152
+msgctxt "Upgrade types: translation, core, plugin, theme"
+msgid "All Types"
+msgstr "Todos os tipos"
+
+#: includes/MPSUM_Logs_List_Table.php:150
+msgid "Filter by Upgrade Type"
+msgstr "Filtrar por tipo de atualização"
+
+#: includes/MPSUM_Admin_Core.php:329
+msgid "Emails can be comma separated"
+msgstr "Emails podem ser separados por vírgula"
+
+#: includes/MPSUM_Admin_Core.php:308
+msgid "Notification E-mail"
+msgstr "Email de notificação"
+
+#: includes/MPSUM_Admin_Core.php:180
+msgid "The email address is not valid"
+msgstr "O endereço de email não é valido"
+
+#: includes/MPSUM_Admin_Advanced.php:249
+msgid "Automatic updates for Core are disabled. Please check your wp-config.php file for WP_AUTO_UPDATE_CORE and remove the line."
+msgstr "As atualizações automáticas do núcleo estão desativadas. Verifique o seu arquivo wp-config.php e se encontrar WP_AUTO_UPDATE_CORE remova toda a linha de código."
+
+#: includes/MPSUM_Admin_Advanced.php:244
+msgid "Automatic updates are disabled. Please check your wp-config.php file for AUTOMATIC_UPDATER_DISABLED and remove the line."
+msgstr "As atualizações automáticas estão desativadas. Verifique o seu arquivo wp-config.php e se encontrar AUTOMATIC_UPDATER_DISABLED remova toda a linha de código."
+
+#. Author of the plugin/theme
+msgid "Easy Updates Manager Team"
+msgstr "Easy Updates Manager Team"
+
+#. Description of the plugin/theme
+msgid "Manage and disable WordPress updates, including core, plugin, theme, and automatic updates - Works with Multisite and has built-in logging features."
+msgstr "Gerenciar e desativar atualizações do WordPress, incluindo o núcleo, plugins, temas e atualizações automáticas - funciona com multisite e tem registro de histórico nativo."
+
+#: includes/MPSUM_Logs_List_Table.php:318
+msgid "Failure"
+msgstr "Falha"
+
+#: includes/MPSUM_Logs_List_Table.php:316
+msgid "Success"
+msgstr "Sucesso"
+
+#: includes/MPSUM_Logs_List_Table.php:308
+msgctxt "update type - manual or automatic updates"
+msgid "automatic"
+msgstr "automática"
+
+#: includes/MPSUM_Logs_List_Table.php:306
+msgctxt "update type - manual or automatic updates"
+msgid "manual"
+msgstr "manual"
+
+#: includes/MPSUM_Logs_List_Table.php:296
+msgctxt "update type"
+msgid "theme"
+msgstr "tema"
+
+#: includes/MPSUM_Logs_List_Table.php:294
+msgctxt "update type"
+msgid "plugin"
+msgstr "plugin"
+
+#: includes/MPSUM_Logs_List_Table.php:292
+msgctxt "update type"
+msgid "translation"
+msgstr "tradução"
+
+#: includes/MPSUM_Logs_List_Table.php:290
+msgctxt "update type"
+msgid "core"
+msgstr "núcleo"
+
+#: includes/MPSUM_Logs_List_Table.php:276
+msgctxt "No user found"
+msgid "None"
+msgstr "Nenhum"
+
+#: includes/MPSUM_Logs_List_Table.php:241
+msgctxt "Column header for logs"
+msgid "Date"
+msgstr "Data"
+
+#: includes/MPSUM_Logs_List_Table.php:240
+msgctxt "Column header for logs"
+msgid "Status"
+msgstr "Status"
+
+#: includes/MPSUM_Logs_List_Table.php:239
+msgctxt "Column header for logs"
+msgid "Action"
+msgstr "Ação"
+
+#: includes/MPSUM_Logs_List_Table.php:238
+msgctxt "Column header for logs"
+msgid "Version"
+msgstr "Versão"
+
+#: includes/MPSUM_Logs_List_Table.php:237
+msgctxt "Column header for logs"
+msgid "Type"
+msgstr "Tipo"
+
+#: includes/MPSUM_Logs_List_Table.php:236
+msgctxt "Column header for logs"
+msgid "Name"
+msgstr "Nome"
+
+#: includes/MPSUM_Logs_List_Table.php:235
+msgctxt "Column header for logs"
+msgid "User"
+msgstr "Usuário"
+
+#: includes/MPSUM_Admin_Logs.php:59
+msgid "Please note that this feature does not necessarily work for premium themes and plugins."
+msgstr "Note que este recurso não necessariamente funciona para plugins e temas premium."
+
+#: includes/MPSUM_Admin_Logs.php:58
+msgid "Update Logs"
+msgstr "Atualizar registros"
+
+#: includes/MPSUM_Admin_Help.php:80
+msgid "Easy Updates Manager Team:"
+msgstr "Equipe do Easy Updates Manager:"
+
+#: includes/MPSUM_Admin_Help.php:53
+msgid "Logs all plugin, theme, and core updates. This tab is only visible if enabled in the \"Advanced\" tab."
+msgstr "Registra todos os plugins, temas e atualizações do núcleo. Esta aba só é visível se habilitada na aba \"Avançadas\"."
+
+#: includes/MPSUM_Admin_Help.php:45
+msgid "Check out our Wiki for updated documentation and videos."
+msgstr "Confira nosso Wiki para a documentação atualizada e vídeos."
+
+#: includes/MPSUM_Admin_Help.php:28
+msgid "Donate"
+msgstr "Doar"
+
+#: includes/MPSUM_Admin_Advanced.php:295
+msgid "Disable Logging"
+msgstr "Desabilitar o registro"
+
+#: includes/MPSUM_Admin_Advanced.php:293
+msgid "This will remove the log table and disable logging."
+msgstr "Isto removerá a tabela de registro e desabilitará os registros."
+
+#: includes/MPSUM_Admin_Advanced.php:285
+msgid "Clear Logs"
+msgstr "Limpar registros"
+
+#: includes/MPSUM_Admin_Advanced.php:283
+msgid "This will clear the log table."
+msgstr "Isto limpará a tabela de registros."
+
+#: includes/MPSUM_Admin_Advanced.php:272
+msgid "Enable Logs"
+msgstr "Habilitar registros"
+
+#: includes/MPSUM_Admin_Advanced.php:268 includes/MPSUM_Admin_Advanced.php:278
+msgctxt "Advanced title heading"
+msgid "Logs"
+msgstr "Históricos"
+
+#: includes/MPSUM_Admin_Advanced.php:230
+msgid "This will reset all options to as if you have just installed the plugin. WARNING!: This also disables and clears the logs."
+msgstr "Isso redefinirá todas as opções, como se você tivesse acabado de instalar o plugin. AVISO!: Isso também desativa e limpa o histórico de registros."
+
+#: includes/MPSUM_Admin_Advanced.php:165
+msgid "Logs have been emptied"
+msgstr "Os registros foram esvaziados"
+
+#: includes/MPSUM_Admin_Advanced.php:162
+msgid "Logs have been disabled"
+msgstr "Os registros foram desabilitados"
+
+#: includes/MPSUM_Admin_Advanced.php:159
+msgid "Logs are now enabled"
+msgstr "Os registros foram habilitados"
+
+#: includes/MPSUM_Admin.php:922 includes/MPSUM_Admin_Help.php:53
+msgid "Logs"
+msgstr "Registros"
+
+#: includes/MPSUM_Plugins_List_Table.php:297
+msgid "Files in the %s directory are executed automatically."
+msgstr "Os arquivos da pasta %s são executados automaticamente."
+
+#. #-#-#-#-#  tmp-stops-core-theme-and-plugin-updates.pot (Easy Updates Manager
+#. 6.3.0)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  tmp-stops-core-theme-and-plugin-updates.pot (Easy Updates Manager
+#. 6.3.0)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "https://wordpress.org/plugins/stops-core-theme-and-plugin-updates/"
+msgstr "https://wordpress.org/plugins/stops-core-theme-and-plugin-updates/"
+
+#. Plugin Name of the plugin/theme
+msgid "Easy Updates Manager"
+msgstr "Easy Updates Manager"
+
+#: includes/MPSUM_Themes_List_Table.php:348
+msgid "Visit Theme Site"
+msgstr "Visitar o site do tema"
+
+#: includes/MPSUM_Themes_List_Table.php:348
+msgid "Visit theme homepage"
+msgstr "Visite a página inicial do tema"
+
+#: includes/MPSUM_Themes_List_Table.php:334
+msgid "Broken Theme:"
+msgstr "Tema quebrado:"
+
+#: includes/MPSUM_Themes_List_Table.php:305
+msgid "Select"
+msgstr "Selecionar"
+
+#: includes/MPSUM_Themes_List_Table.php:228
+msgctxt "themes"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Tudo <span class=\"count\">(%s)</span>"
+msgstr[1] "Todos <span class=\"count\">(%s)</span>"
+
+#: includes/MPSUM_Themes_List_Table.php:209
+msgid "Theme"
+msgstr "Tema"
+
+#: includes/MPSUM_Themes_List_Table.php:201
+msgid "You do not appear to have any themes available at this time."
+msgstr "Parece que você não possui qualquer tema disponível neste momento."
+
+#: includes/MPSUM_Themes_List_Table.php:199
+msgid "No themes found."
+msgstr "Nenhum tema foi encontrado."
+
+#: includes/MPSUM_Plugins_List_Table.php:414
+msgid "Visit plugin site"
+msgstr "Visitar o site do plugin"
+
+#: includes/MPSUM_Plugins_List_Table.php:409
+msgid "View details"
+msgstr "Ver detalhes"
+
+#: includes/MPSUM_Plugins_List_Table.php:407
+msgid "More information about %s"
+msgstr "Mais informações sobre %s"
+
+#: includes/MPSUM_Plugins_List_Table.php:399
+#: includes/MPSUM_Themes_List_Table.php:345
+msgid "By %s"
+msgstr "Por %s"
+
+#: includes/MPSUM_Plugins_List_Table.php:394
+#: includes/MPSUM_Themes_List_Table.php:343
+msgid "Version %s"
+msgstr "Versão %s"
+
+#: includes/MPSUM_Plugins_List_Table.php:362
+msgid "Select %s"
+msgstr "Selecionar %s"
+
+#: includes/MPSUM_Plugins_List_Table.php:305
+msgid "Drop-ins are advanced plugins in the %s directory that replace WordPress functionality when present."
+msgstr "Drop-ins são plugins avançados, que quando presentes na pasta %s, substituem funcionalidades do WordPress."
+
+#: includes/MPSUM_Plugins_List_Table.php:292
+msgid "Clear List"
+msgstr "Limpar a lista"
+
+#: includes/MPSUM_Plugins_List_Table.php:257
+#: includes/MPSUM_Themes_List_Table.php:268
+msgid "Allow Automatic Updates"
+msgstr "Permitir atualizações automáticas"
+
+#: includes/MPSUM_Plugins_List_Table.php:227
+#: includes/MPSUM_Themes_List_Table.php:237
+msgid "Automatic Updates <span class=\"count\">(%s)</span>"
+msgid_plural "Automatic Updates <span class=\"count\">(%s)</span>"
+msgstr[0] "Atualização automática <span class=\"count\">(%s)</span>"
+msgstr[1] "Atualizações automáticas <span class=\"count\">(%s)</span>"
+
+#: includes/MPSUM_Plugins_List_Table.php:224
+#: includes/MPSUM_Themes_List_Table.php:231
+msgid "Updates Disabled <span class=\"count\">(%s)</span>"
+msgid_plural "Updates Disabled <span class=\"count\">(%s)</span>"
+msgstr[0] "Atualização desabilitada <span class=\"count\">(%s)</span>"
+msgstr[1] "Atualizações desabilitadas <span class=\"count\">(%s)</span>"
+
+#: includes/MPSUM_Plugins_List_Table.php:221
+#: includes/MPSUM_Themes_List_Table.php:234
+msgid "Updates Enabled <span class=\"count\">(%s)</span>"
+msgid_plural "Updates Enabled <span class=\"count\">(%s)</span>"
+msgstr[0] "Atualização habilitada <span class=\"count\">(%s)</span>"
+msgstr[1] "Atualizações habilitadas <span class=\"count\">(%s)</span>"
+
+#: includes/MPSUM_Plugins_List_Table.php:218
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Tudo <span class=\"count\">(%s)</span>"
+msgstr[1] "Todas <span class=\"count\">(%s)</span>"
+
+#: includes/MPSUM_Plugins_List_Table.php:200
+#: includes/MPSUM_Themes_List_Table.php:210
+msgid "Description"
+msgstr "Descrição"
+
+#: includes/MPSUM_Plugins_List_Table.php:199
+msgid "Plugin"
+msgstr "Plugin"
+
+#: includes/MPSUM_Plugins_List_Table.php:191
+msgid "You do not appear to have any plugins available at this time."
+msgstr "Parece que você não tem nenhum plugin disponível no momento."
+
+#: includes/MPSUM_Plugins_List_Table.php:189
+msgid "No plugins found."
+msgstr "Nenhum plugin foi encontrado."
+
+#: includes/MPSUM_List_Table.php:1011
+msgid "Select All"
+msgstr "Selecionar todos"
+
+#: includes/MPSUM_List_Table.php:801
+msgid "Last page"
+msgstr "Última página"
+
+#: includes/MPSUM_List_Table.php:791
+msgid "Next page"
+msgstr "Próxima página"
+
+#: includes/MPSUM_List_Table.php:784
+msgctxt "paging"
+msgid "%1$s of %2$s"
+msgstr "%1$s de %2$s"
+
+#: includes/MPSUM_List_Table.php:775 includes/MPSUM_List_Table.php:778
+msgid "Current Page"
+msgstr "Página atual"
+
+#: includes/MPSUM_List_Table.php:768
+msgid "Previous page"
+msgstr "Página anterior"
+
+#: includes/MPSUM_List_Table.php:758
+msgid "First page"
+msgstr "Primeira página"
+
+#: includes/MPSUM_List_Table.php:723 includes/MPSUM_List_Table.php:1287
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] "%s item"
+msgstr[1] "%s itens"
+
+#: includes/MPSUM_List_Table.php:642
+msgid "No approved comments"
+msgstr "Não há comentários aprovados"
+
+#: includes/MPSUM_List_Table.php:630 includes/MPSUM_List_Table.php:642
+msgid "No comments"
+msgstr "Nenhum comentário"
+
+#: includes/MPSUM_List_Table.php:625
+msgid "%s pending comment"
+msgid_plural "%s pending comments"
+msgstr[0] "%s comentário pendente"
+msgstr[1] "%s comentários pendentes"
+
+#: includes/MPSUM_List_Table.php:624
+msgid "%s approved comment"
+msgid_plural "%s approved comments"
+msgstr[0] "%s comentário aprovado"
+msgstr[1] "%s comentários aprovados"
+
+#: includes/MPSUM_List_Table.php:623
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] "%s comentário"
+msgstr[1] "%s comentários"
+
+#. translators: 1: month name, 2: 4-digit year
+#: includes/MPSUM_List_Table.php:571 includes/MPSUM_Logs_List_Table.php:139
+msgid "%1$s %2$d"
+msgstr "%1$s de %2$d"
+
+#: includes/MPSUM_List_Table.php:558 includes/MPSUM_Logs_List_Table.php:126
+msgid "All dates"
+msgstr "Todas as datas"
+
+#: includes/MPSUM_List_Table.php:556 includes/MPSUM_Logs_List_Table.php:124
+msgid "Filter by date"
+msgstr "Filtrar por data"
+
+#: includes/MPSUM_List_Table.php:501
+msgid "Show more details"
+msgstr "Mostrar mais detalhes"
+
+#: includes/MPSUM_List_Table.php:451
+msgid "Apply"
+msgstr "Aplicar"
+
+#: includes/MPSUM_List_Table.php:441
+msgid "Bulk Actions"
+msgstr "Ações em massa"
+
+#: includes/MPSUM_List_Table.php:439
+msgid "Select bulk action"
+msgstr "Selecionar ação em massa"
+
+#: includes/MPSUM_List_Table.php:313
+msgid "No items found."
+msgstr "Nenhum item encontrado."
+
+#: includes/MPSUM_List_Table.php:144
+msgid "Excerpt View"
+msgstr "Visão Resumida"
+
+#: includes/MPSUM_List_Table.php:143
+msgid "List View"
+msgstr "Visão em Lista"
+
+#: includes/MPSUM_Admin_Themes.php:221
+msgid "Theme Update Options"
+msgstr "Opções de atualização dos temas"
+
+#: includes/MPSUM_Admin_Themes.php:204
+msgid "The selected theme updates have been enabled."
+msgstr "As atualizações do tema selecionado foram habilitadas."
+
+#: includes/MPSUM_Admin_Themes.php:202
+msgid "The selected theme updates have been disabled."
+msgstr "As atualizações do tema selecionado foram desabilitadas."
+
+#: includes/MPSUM_Admin_Themes.php:200
+msgid "The selected themes have had automatic updates disabled."
+msgstr "As atualizações dos temas selecionados foram desabilitadas."
+
+#: includes/MPSUM_Admin_Themes.php:198
+msgid "The selected themes have had automatic updates enabled."
+msgstr "As atualizações dos temas selecionados foram habilitadas."
+
+#: includes/MPSUM_Admin_Plugins.php:261
+msgid "Plugin Update Options"
+msgstr "Opções de atualização dos plugins"
+
+#: includes/MPSUM_Admin_Plugins.php:245
+msgid "The selected plugin updates have been enabled."
+msgstr "As atualizações do plugin selecionado foram habilitadas."
+
+#: includes/MPSUM_Admin_Plugins.php:243
+msgid "The selected plugin updates have been disabled."
+msgstr "As atualizações do plugin selecionado foram desabilitadas."
+
+#: includes/MPSUM_Admin_Plugins.php:241
+msgid "The selected plugins have had automatic updates disabled."
+msgstr "As atualizações dos plugins selecionados foram desabilitadas."
+
+#: includes/MPSUM_Admin_Plugins.php:239
+msgid "The selected plugins have had automatic updates enabled."
+msgstr "As atualizações dos plugins selecionados foram habilitadas."
+
+#: includes/MPSUM_Admin_Plugins.php:236 includes/MPSUM_Admin_Themes.php:196
+msgid "Settings have been updated."
+msgstr "As configurações foram atualizadas."
+
+#: includes/MPSUM_Admin_Plugins.php:150 includes/MPSUM_Admin_Themes.php:274
+msgid "Enable Automatic Updates"
+msgstr "Habilitar atualizações automáticas"
+
+#: includes/MPSUM_Admin_Plugins.php:146 includes/MPSUM_Admin_Themes.php:270
+#: includes/MPSUM_Plugins_List_Table.php:258
+#: includes/MPSUM_Themes_List_Table.php:269
+msgid "Disallow Automatic Updates"
+msgstr "Impedir atualizações automáticas"
+
+#: includes/MPSUM_Admin_Plugins.php:137 includes/MPSUM_Admin_Themes.php:261
+#: includes/MPSUM_Plugins_List_Table.php:254
+#: includes/MPSUM_Themes_List_Table.php:265
+msgid "Disallow Updates"
+msgstr "Impedir atualizações"
+
+#: includes/MPSUM_Admin_Plugins.php:133 includes/MPSUM_Admin_Themes.php:256
+#: includes/MPSUM_Plugins_List_Table.php:253
+#: includes/MPSUM_Themes_List_Table.php:264
+msgid "Allow Updates"
+msgstr "Permitir atualizações"
+
+#: includes/MPSUM_Admin_Help.php:121
+msgid "Capability"
+msgstr "Capacidade"
+
+#: includes/MPSUM_Admin_Help.php:115
+msgid "Documentation"
+msgstr "Documentação"
+
+#: includes/MPSUM_Admin_Help.php:109
+msgid "Navigation"
+msgstr "Navegação"
+
+#: includes/MPSUM_Admin_Help.php:103
+msgid "Overview"
+msgstr "Visão geral"
+
+#: includes/MPSUM_Admin_Help.php:98
+msgid "This plugin is tested with the most recent versions of WordPress to ensure that there are no major issues."
+msgstr "Este plugin foi testado com as versões mais recentes do WordPress para garantir que não hajam grandes problemas."
+
+#: includes/MPSUM_Admin_Help.php:97
+msgid "WordPress encourages you to update your plugins, themes, and core to make sure that there are no bugs. Even though you most likely want to disable all the updates and never think about updating again, you should still consider updating every once in a while to avoid major bugs and errors on your WordPress website."
+msgstr "O WordPress incentiva você a atualizar seus plugins, temas e núcleo para certificar-se de que não há nenhum erro. Mesmo que você provavelmente deseje desabilitar todas as atualizações e nunca mais pense nelas novamente, você ainda deve considerar atualizar de vez em quando para evitar grandes problemas e erros no seu site em WordPress."
+
+#: includes/MPSUM_Admin_Help.php:54
+msgid "Reset all options or allow certain users to see all updates regardless of what settings you have set."
+msgstr "Redefinir todas as opções, ou permitir que certos usuários visualizem todas as atualizações, independentemente das configurações que você definiu."
+
+#: includes/MPSUM_Admin_Help.php:52
+msgid "If theme updates are enabled and/or automatic updates for themes are enabled, you can configure which themes will receive updates and/or automatic updates."
+msgstr "Se a atualizações de tema estão habilitadas e/ou as atualizações automáticas dos temas estão ativas, você pode configurar quais temas receberão atualizações e/ou atualizações automáticas."
+
+#: includes/MPSUM_Admin_Help.php:51
+msgid "If plugin updates are enabled and/or automatic updates for plugins are enabled, you can configure which plugins will receive updates and/or automatic updates."
+msgstr "Se a atualizações de plugin estão habilitadas e/ou as atualizações automáticas dos plugin estão ativas, você pode configurar quais plugin receberão atualizações e/ou atualizações automáticas."
+
+#: includes/MPSUM_Admin_Help.php:50
+msgid "Use this screen to finely tune which updates and automatic updates you would like to see."
+msgstr "Use esta tela para ajustar precisamente quais atualizações e atualizações automáticas você gostaria de ver."
+
+#: includes/MPSUM_Admin_Help.php:49
+msgid "Use this screen for an at-a-glance view of your settings."
+msgstr "Use esta tela para uma exibição resumida de suas configurações."
+
+#: includes/MPSUM_Admin_Help.php:48
+msgid "You will see multiple tabs where you can configure the update options."
+msgstr "Você verá várias abas onde pode configurar as opções de atualização."
+
+#: includes/MPSUM_Admin_Help.php:31
+msgid "Official Documentation"
+msgstr "Documentação oficial"
+
+#: includes/MPSUM_Admin_Help.php:30
+msgid "GitHub Repository"
+msgstr "Repositório no Github"
+
+#: includes/MPSUM_Admin_Help.php:29
+msgid "Support on WordPress"
+msgstr "Suporte no WordPress"
+
+#: includes/MPSUM_Admin_Help.php:43
+msgid "If either your WordPress core, theme, or plugins get too out of date, you may run into compatibility problems. Check the capability tab for more information."
+msgstr "Se seu núcleo de WordPress, tema ou plugins também fora da data, você pode executar em problemas de compatibilidade. Verifique na guia de recurso para obter mais informações."
+
+#: includes/MPSUM_Admin_Help.php:43
+msgid "Please Note!"
+msgstr "Observe!"
+
+#: includes/MPSUM_Admin_Help.php:41
+msgid "This is the Easy Updates Manager settings help tab. Here you will find helpful information on what Easy Updates Manager does and how to use it."
+msgstr "Esta é a aba de ajuda das configurações do Easy Updates Manager. Aqui você encontrará informações úteis sobre o que o Easy Updates Manager faz e como usá-lo."
+
+#: includes/MPSUM_Admin.php:745
+msgid "Plugin and Theme Automatic Updates"
+msgstr "Atualizações automáticas do plugins e temas"
+
+#: includes/MPSUM_Admin_Themes.php:226
+msgid "All theme updates have been disabled."
+msgstr "Todas as atualizações de tema foram desabilitadas."
+
+#: includes/MPSUM_Admin_Plugins.php:265
+msgid "All plugin updates have been disabled."
+msgstr "Todas as atualizações de plugin foram desabilitadas."
+
+#: includes/MPSUM_Admin.php:736 includes/MPSUM_Admin.php:760
+msgid "Theme Updates"
+msgstr "Atualizações do temas"
+
+#: includes/MPSUM_Admin.php:730 includes/MPSUM_Admin.php:754
+msgid "Plugin Updates"
+msgstr "Atualizações de plugins"
+
+#: includes/MPSUM_Admin.php:721
+msgid "Plugin and Theme Updates"
+msgstr "Atualizações do temas e plugins"
+
+#: includes/MPSUM_Admin.php:769
+msgid "WordPress Notifications"
+msgstr "Notificações do WordPress"
+
+#: includes/MPSUM_Admin.php:516
+msgid "WordPress Updates"
+msgstr "Atualizações do WordPress"
+
+#: includes/MPSUM_Admin_Core.php:358
+msgid "Reset to Defaults"
+msgstr "Voltar aos valores padrão"
+
+#: includes/MPSUM_Admin_Core.php:356
+msgid "Save Changes"
+msgstr "Salvar mudanças"
+
+#: includes/MPSUM_Admin_Core.php:348
+msgid "Removes the WordPress version in the footer."
+msgstr "Remove a versão de WordPress no rodapé."
+
+#: includes/MPSUM_Admin_Core.php:344
+msgid "WordPress Version in Footer"
+msgstr "Versão do WordPress no rodapé"
+
+#: includes/MPSUM_Admin_Core.php:340
+msgid "Removes the browser nag for people using older browsers."
+msgstr "Remove o aviso irritante para as pessoas que usam navegadores mais antigos."
+
+#: includes/MPSUM_Admin_Core.php:336
+msgid "Browser Nag"
+msgstr "Aviso de Navegador"
+
+#: includes/MPSUM_Admin_Core.php:333
+msgid "Miscellaneous"
+msgstr "Diversos"
+
+#: includes/MPSUM_Admin_Core.php:293
+msgid "Core Update Emails"
+msgstr "Emails de atualização de núcleo"
+
+#: includes/MPSUM_Admin.php:774 includes/MPSUM_Admin_Core.php:290
+msgid "Core E-mails"
+msgstr "Emails do núcleo"
+
+#: includes/MPSUM_Admin_Core.php:287
+msgid "Notifications"
+msgstr "Avisos"
+
+#: includes/MPSUM_Admin_Core.php:283
+msgid "Automatically update your translations."
+msgstr "Atualiza automaticamente suas traduções."
+
+#: includes/MPSUM_Admin.php:599 includes/MPSUM_Admin_Core.php:279
+msgid "Translation Updates"
+msgstr "Atualizações de tradução"
+
+#: includes/MPSUM_Admin_Core.php:275
+msgid "Automatically update your themes. Select always on, always off, the WordPress default, or select themes individually."
+msgstr "Atualiza automaticamente seus temas. Escolha: sempre, nunca, o padrão do WordPress ou selecione temas individualmente."
+
+#: includes/MPSUM_Admin.php:639 includes/MPSUM_Admin_Core.php:269
+msgid "Automatic Theme Updates"
+msgstr "Atualizações automáticas de tema"
+
+#: includes/MPSUM_Admin_Core.php:265
+msgid "Automatically update your plugins.  Select always on, always off, the WordPress default, or select plugins individually."
+msgstr "Atualiza automaticamente seus plugins. Escolha: sempre, nunca, o padrão do WordPress ou selecione plugins individualmente."
+
+#: includes/MPSUM_Admin.php:632 includes/MPSUM_Admin.php:663
+#: includes/MPSUM_Admin_Core.php:264 includes/MPSUM_Admin_Core.php:274
+msgid "Select Individually"
+msgstr "Selecione individualmente"
+
+#: includes/MPSUM_Admin.php:627 includes/MPSUM_Admin.php:658
+#: includes/MPSUM_Admin_Core.php:263 includes/MPSUM_Admin_Core.php:273
+msgid "Default"
+msgstr "Padrão"
+
+#: includes/MPSUM_Admin.php:608 includes/MPSUM_Admin_Core.php:259
+msgid "Automatic Plugin Updates"
+msgstr "Atualizações automáticas de plugin"
+
+#: includes/MPSUM_Admin_Core.php:255
+msgid "Update automatically to Bleeding Edge releases."
+msgstr "Atualizar automaticamente para versões de desenvolvimento."
+
+#: includes/MPSUM_Admin.php:590 includes/MPSUM_Admin_Core.php:251
+msgid "Development Updates"
+msgstr "Atualizações de desenvolvimento"
+
+#: includes/MPSUM_Admin_Core.php:247
+msgid "Automatically update to minor releases (e.g., 4.1.1, 4.1.2, 4.1.3)."
+msgstr "Atualiza automaticamente para as versões secundárias (ex: 4.1.1, 4.1.2, 4.1.3)."
+
+#: includes/MPSUM_Admin.php:581 includes/MPSUM_Admin_Core.php:243
+msgid "Minor Releases"
+msgstr "Versões menores"
+
+#: includes/MPSUM_Admin_Core.php:239
+msgid "Automatically update to major releases (e.g., 4.1, 4.2, 4.3)."
+msgstr "Atualiza automaticamente para versões principais (ex: 4.1, 4.2, 4.3)."
+
+#: includes/MPSUM_Admin.php:572 includes/MPSUM_Admin_Core.php:235
+msgid "Major Releases"
+msgstr "Versões maiores"
+
+#: includes/MPSUM_Admin_Core.php:232
+msgid "These options will enable or disable automatic updates (background updates) of certain parts of WordPress."
+msgstr "Essas opções irão habilitar ou desabilitar as atualizações automáticas (atualizações em segundo plano) de certas partes do WordPress."
+
+#: includes/MPSUM_Admin.php:568 includes/MPSUM_Admin_Core.php:231
+msgid "Automatic Updates"
+msgstr "Atualizações automáticas"
+
+#: includes/MPSUM_Admin.php:557 includes/MPSUM_Admin_Core.php:224
+msgid "All Translation Updates"
+msgstr "Todas as atualizações de tradução"
+
+#: includes/MPSUM_Admin.php:548 includes/MPSUM_Admin_Core.php:217
+msgid "All Theme Updates"
+msgstr "Todas as atualizações de tema"
+
+#: includes/MPSUM_Admin.php:539 includes/MPSUM_Admin_Core.php:210
+msgid "All Plugin Updates"
+msgstr "Todas as atualizações de plugin"
+
+#: includes/MPSUM_Admin_Core.php:206
+msgid "Prevents WordPress from showing it needs to be updated."
+msgstr "Impede que WordPress mostre que precisa ser atualizado."
+
+#: includes/MPSUM_Admin.php:530 includes/MPSUM_Admin_Core.php:202
+msgid "WordPress Core Updates"
+msgstr "Atualizações do núcleo do WordPress"
+
+#: includes/MPSUM_Admin_Core.php:198
+msgid "If this option is disabled, this will override all settings."
+msgstr "Se esta opção estiver desativada, isso irá substituir todas as configurações."
+
+#: includes/MPSUM_Admin.php:622 includes/MPSUM_Admin.php:653
+#: includes/MPSUM_Admin.php:823 includes/MPSUM_Admin_Core.php:197
+#: includes/MPSUM_Admin_Core.php:205 includes/MPSUM_Admin_Core.php:213
+#: includes/MPSUM_Admin_Core.php:220 includes/MPSUM_Admin_Core.php:227
+#: includes/MPSUM_Admin_Core.php:238 includes/MPSUM_Admin_Core.php:246
+#: includes/MPSUM_Admin_Core.php:254 includes/MPSUM_Admin_Core.php:262
+#: includes/MPSUM_Admin_Core.php:272 includes/MPSUM_Admin_Core.php:282
+#: includes/MPSUM_Admin_Core.php:339 includes/MPSUM_Admin_Core.php:347
+msgid "Disabled"
+msgstr "Desabilitado"
+
+#: includes/MPSUM_Admin.php:617 includes/MPSUM_Admin.php:648
+#: includes/MPSUM_Admin.php:822 includes/MPSUM_Admin_Core.php:196
+#: includes/MPSUM_Admin_Core.php:204 includes/MPSUM_Admin_Core.php:212
+#: includes/MPSUM_Admin_Core.php:219 includes/MPSUM_Admin_Core.php:226
+#: includes/MPSUM_Admin_Core.php:237 includes/MPSUM_Admin_Core.php:245
+#: includes/MPSUM_Admin_Core.php:253 includes/MPSUM_Admin_Core.php:261
+#: includes/MPSUM_Admin_Core.php:271 includes/MPSUM_Admin_Core.php:281
+#: includes/MPSUM_Admin_Core.php:338 includes/MPSUM_Admin_Core.php:346
+msgid "Enabled"
+msgstr "Habilitado"
+
+#: includes/MPSUM_Admin.php:521 includes/MPSUM_Admin_Core.php:194
+msgid "All Updates"
+msgstr "Todas as atualizações"
+
+#: includes/MPSUM_Admin_Core.php:191
+msgid "Global Settings"
+msgstr "Configurações globais"
+
+#: includes/MPSUM_Admin_Advanced.php:258
+msgid "Force Updates"
+msgstr "Forçar atualizações"
+
+#: includes/MPSUM_Admin_Advanced.php:253
+msgid "This will attempt to force automatic updates. This is useful for debugging."
+msgstr "Isto tentará forçar as atualizações automáticas. Isso é útil para depuração."
+
+#: includes/MPSUM_Admin_Advanced.php:240
+msgid "Force Automatic Updates"
+msgstr "Forçar atualizações automáticas"
+
+#: includes/MPSUM_Admin_Advanced.php:235
+msgid "Reset All Options"
+msgstr "Redefinir todas as opções"
+
+#: includes/MPSUM_Admin_Advanced.php:229
+msgid "Reset Options"
+msgstr "Redefinir as opções"
+
+#: includes/MPSUM_Admin_Advanced.php:224
+msgid "Save Users"
+msgstr "Salvar usuários"
+
+#: includes/MPSUM_Admin_Advanced.php:185
+msgid "Users to be Excluded"
+msgstr "Usuários a excluir"
+
+#: includes/MPSUM_Admin_Advanced.php:182
+msgid "This option is useful if, for example, you would like to disable updates, but have a user account that can still update WordPress."
+msgstr "Essa opção é útil se, por exemplo, você quer desativar as atualizações, mas tem uma conta de usuário que ainda pode atualizar o WordPress."
+
+#: includes/MPSUM_Admin_Advanced.php:181
+msgid "Select which users to be excluded from the settings of this plugin.  Default WordPress behavior will be used."
+msgstr "Selecione os usuários que serão excluídos das configurações deste plugin. Será usado o comportamento padrão do WordPress."
+
+#: includes/MPSUM_Admin_Advanced.php:180
+msgid "Exclude Users"
+msgstr "Excluir usuários"
+
+#: includes/MPSUM_Admin_Advanced.php:168 includes/MPSUM_Admin_Core.php:173
+msgid "Options saved."
+msgstr "Opções salvas."
+
+#: includes/MPSUM_Admin_Advanced.php:156
+msgid "Force update checks have been initialized. Please check your site in 90 seconds, and refresh to test automatic updates."
+msgstr "Iniciamos as verificações de atualização forçada. Verifique seu site novamente em 90 segundos e recarregue para testar as atualizações automáticas."
+
+#: includes/MPSUM_Admin_Advanced.php:153
+msgid "The plugin settings have now been reset."
+msgstr "As configurações de plugin agora foram redefinidas."
+
+#: includes/MPSUM_Admin_Advanced.php:150
+msgid "The exclusion of users option has been updated."
+msgstr "A opção de exclusão de usuários foi atualizada."
+
+#: includes/MPSUM_Admin.php:988
+msgid "Configure"
+msgstr "Configurar"
+
+#: includes/MPSUM_Admin.php:929 includes/MPSUM_Admin_Help.php:54
+msgid "Advanced"
+msgstr "Avançadas"
+
+#: includes/MPSUM_Admin.php:915 includes/MPSUM_Admin_Help.php:52
+msgid "Themes"
+msgstr "Temas"
+
+#: includes/MPSUM_Admin.php:909 includes/MPSUM_Admin_Help.php:51
+msgid "Plugins"
+msgstr "Plugins"
+
+#: includes/MPSUM_Admin.php:903 includes/MPSUM_Admin_Help.php:50
+msgid "General"
+msgstr "Geral"
+
+#: includes/MPSUM_Admin.php:895 includes/MPSUM_Admin_Help.php:49
+msgid "Dashboard"
+msgstr "Painel de controle"
+
+#: includes/MPSUM_Admin.php:886
+msgid "Manage Updates"
+msgstr "Gerenciar atualizações"
+
+#: includes/MPSUM_Admin.php:848 includes/MPSUM_Admin.php:866
+msgid "Updates Options"
+msgstr "Opções de atualizações"
