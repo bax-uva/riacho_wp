@@ -86,6 +86,10 @@ a {
 	background-color: transparent;
 }
 
+a:active,
+a:hover {
+	outline: 0;
+}
 
 abbr[title] {
 	border-bottom: 1px dotted;
@@ -100,11 +104,7 @@ dfn {
 	font-style: italic;
 }
 
-h1 {
-	font-size: 2.2em;
-	margin: 0.67em 0;
-    opacity: 0.8;
-}
+
 
 mark {
 	background: #ff0;
@@ -265,6 +265,7 @@ h1 {
     color: #FF9A9A;
     font-size: 1.4em;
     font-weight: lighter;
+    opacity: 0.8;
 }
 
 h1,
@@ -276,6 +277,7 @@ h6 {
 	clear: both;
 }
 
+
 a {
 	color: inherit;
     font-size: inherit;
@@ -284,10 +286,7 @@ a {
 p {
 	font-family: 'Roboto', sans-serif;
 	font-size: 1em;
-	text-align: justify;
-    text-justify: auto;
-	margin-bottom: 1.5em;
-    line-height: 1.5em;
+	text-align: left;
 }
 
 dfn,
@@ -308,13 +307,9 @@ address {
 pre {
 	background: #eee;
 	font-family: "Roboto", sans-serif;
-	font-size: 15px;
-	font-size: 0.9375rem;
-	line-height: 1.6;
-	margin-bottom: 1.6em;
+	font-size: 1em;
 	max-width: 100%;
 	overflow: auto;
-	padding: 1.6em;
 }
 
 code,
@@ -322,8 +317,7 @@ kbd,
 tt,
 var {
 	font-family: "Roboto", sans-serif;
-	font-size: 15px;
-	font-size: 0.9375rem;
+	font-size: 1em;
 }
 
 abbr,
@@ -511,36 +505,98 @@ textarea {
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
 ## Links
---------------------------------------------------------------*/
+---------------------------  -----------------------------------*/
 a {
 	color: inherit;
-}
-a:hover a:focus {
-  background-color: none;
 }
 
 article a {
   text-decoration: underline;
 }
 
-/*article a:hover, article a:focus, article a:active  {
-  color: #95D7F2;
-}*/
-
-/*a:hover,
 a:focus,
 a:active {
-	color: #95D7F2;
-}
-*/
-a:focus {
-	outline: dotted;
+	color: #FEC400;
 }
 
+a:focus {
+	outline: thin dotted;
+}
+
+a:hover,
+a:active {
+	outline: 0;
+}
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
 
+.main-navigation {
+	clear: both;
+	display: block;
+	float: left;
+	width: 100%;
+}
+
+.main-navigation ul {
+	display: none;
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+}
+
+.main-navigation li {
+	float: left;
+	position: relative;
+}
+
+.main-navigation a {
+	display: block;
+	text-decoration: none;
+}
+
+
+.main-navigation ul ul a {
+	width: 200px;
+}
+
+.main-navigation ul ul li {
+
+}
+
+.main-navigation li:hover > a,
+.main-navigation li.focus > a {
+}
+
+.main-navigation ul ul :hover > a,
+.main-navigation ul ul .focus > a {
+}
+
+.main-navigation ul ul a:hover,
+.main-navigation ul ul a.focus {
+}
+
+.main-navigation ul li:hover > ul,
+.main-navigation ul li.focus > ul {
+	left: auto;
+}
+
+.main-navigation ul ul li:hover > ul,
+.main-navigation ul ul li.focus > ul {
+	left: 100%;
+}
+
+.main-navigation .current_page_item > a,
+.main-navigation .current-menu-item > a,
+.main-navigation .current_page_ancestor > a,
+.main-navigation .current-menu-ancestor > a {
+}
+
+/* Small menu. */
+.menu-toggle,
+.main-navigation.toggled ul {
+	display: block;
+}
 
 
 @media screen and (min-width: 37.5em) {
@@ -550,6 +606,11 @@ a:focus {
 	.main-navigation ul {
 		display: block;
 	}
+  p {
+    text-align: justify;
+    text-justify: auto;
+  }
+  
 }
 
 .site-main .comment-navigation,
@@ -827,6 +888,9 @@ object {
 
 
 /* CUSTOM */
+a, a:hover, a:focus {
+	outline: none;
+}
 
 #wpadminbar {
 	z-index:1030; /* to be under nprogress */
@@ -837,33 +901,54 @@ object {
 	font-weight: normal;
 }
 
-.entry-title a {
-	color: #fff;
+.entry-title a:hover {
+	color: inherit;
 	text-decoration: none;
 }
 
-@media (min-width: 1200px) {
-	.container {
-	    width: 970px;
-	}
+
+
+.navbar-header {
+  border: 1px solid white;
+  width: auto;
 }
 
-
-
 .navbar-riacho {
-  background-image: url("http://api.thumbr.it/whitenoise-361x370.png?background=000000ff&noise=009cc7&density=7&opacity=52");
+  background;
   min-height: 60px;
   border: 1px solid yellow;
   display: flex;
 }
 
+.navbar-riacho .navbar-nav > li > a {
+	padding: 0;
+	margin: 0 9px;
+	text-align: center;
+  border: 1px solid blue;
+}
+
+.navbar-nav {
+  background-image:url("http://api.thumbr.it/whitenoise-361x370.png?background=000000ff&noise=009cc7&density=7&opacity=52");
+  border: 1px solid pink;
+  padding-top: 0.5em;
+  display: flex;
+  align-items: baseline;
+}
+
+
+.navbar-riacho .navbar-brand {
+	padding: 10px 15px;
+}
+.navbar-riacho .navbar-brand > img {
+	display: inline-block;
+}
 #menu-typ-riacho {
 	margin-left: 30px; 
 	margin-top: 7px;
 	display: inline-block;
 }
 .navbar-riacho .navbar-toggle {
-	background: transparent;
+	background: #000;
 	box-shadow: none;
 	border: none;
 	margin-top: 14px;
@@ -881,21 +966,24 @@ object {
 	border: none;
 }
 
-
+.navbar-riacho .nav > li > a:hover, 
+.navbar-riacho .nav > li > a:focus {
+	background: transparent;
+	outline:none;
+}
 
 
 @media (min-width: 768px) {
-	.navbar-riacho {
-		margin: 30px -15px 30px;
+	.navbar-riacho, 
+	.navbar-riacho .navbar-nav > li > a:hover {
 	}
-	
 	#menu-typ-riacho {; 
 		display: none;
 	}
 }
 
 #riachogif {
-	margin-top: 14px;
+	margin-top: 10px;
 }
 
 .featherlight .featherlight-content {
@@ -1082,12 +1170,13 @@ object {
 }
 @media (min-width: 768px) and (max-width: 1260px) {
 	#bodycontainer {
-		float:left;
-		margin-left: 145px;
+      width: 90%;
 	}
 	.navbar-riacho > .container {
-		width: 100%;
+        display: flex;
 		padding-left: 170px;
+      margin-top: 0.5em;
+      align-content: flex-end;
 	}
 }
 @media (min-width: 768px) {
@@ -1098,6 +1187,10 @@ object {
 		margin-left: -170px;
 		margin-top: -20px;
 	}
+  .navbar-header {
+    display: flex;
+  }
+  
 	#riachogif {
 		display: inline-block;
 	}

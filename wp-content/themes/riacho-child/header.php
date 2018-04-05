@@ -34,7 +34,7 @@
 
 	<?php if ( !is_home() ) : ?>
 		<header id="masthead" class="site-header" role="banner">
-			<nav class="navbar navbar-riacho navbar-fixed-top">
+			<nav class="navbar navbar-riacho">
 				<div class="container">
 				<div class="navbar-header">
 				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -54,11 +54,11 @@
 					<li class="menu-item"><a href="<?php echo esc_url( home_url( '/somos' ) ); ?>" title="Somos - riacho"><h1>SOMOS</h1></a></li>
 					<li class="menu-item">
                       <a href="http://www.facebook.com/riacho.me" class="skipfix_hjs">
-                        <img src="https://www.riacho.me/wp-content/themes/riacho-child/images/fbfav.png"/></a>
+                        <img src="https://www.riacho.me/wp-content/themes/riacho-child/images/fbfav.png" style="width:1.5em; border-top:1em;"/></a>
                     </li>
                     <li class="menu-item">
                       <a href="https://riacho.me/feed"  class="skipfix_hjs">
-                        <img src="https://www.riacho.me/wp-content/themes/riacho-child/images/RSS-iconpb.png" /></a>
+                        <img src="https://www.riacho.me/wp-content/themes/riacho-child/images/RSS-iconpb.png" style="width:1.5em; border-top:1em;" /></a>
 					</li>
 				  </ul>
 				  <!--div class="nav navbar-nav navbar-right">
