@@ -285,7 +285,7 @@ a {
 
 p {
 	font-family: 'Roboto', sans-serif;
-	font-size: 1em;
+	font-size: 0.85em;
 	text-align: left;
 }
 
@@ -909,14 +909,12 @@ a, a:hover, a:focus {
 
 
 .navbar-header {
-  border: 1px solid white;
   width: auto;
 }
 
 .navbar-riacho {
   background;
   min-height: 60px;
-  border: 1px solid yellow;
   display: flex;
 }
 
@@ -924,15 +922,14 @@ a, a:hover, a:focus {
 	padding: 0;
 	margin: 0 9px;
 	text-align: center;
-  border: 1px solid blue;
 }
 
 .navbar-nav {
   background-image:url("http://api.thumbr.it/whitenoise-361x370.png?background=000000ff&noise=009cc7&density=7&opacity=52");
-  border: 1px solid pink;
   padding-top: 0.5em;
   display: flex;
-  align-items: baseline;
+  flex-direction: column;
+  align-items: center;
 }
 
 
@@ -977,9 +974,11 @@ a, a:hover, a:focus {
 	.navbar-riacho, 
 	.navbar-riacho .navbar-nav > li > a:hover {
 	}
-	#menu-typ-riacho {; 
+	#menu-typ-riacho { 
 		display: none;
 	}
+    .navbar-nav {
+      flex-direction: row;
 }
 
 #riachogif {
@@ -1016,7 +1015,7 @@ a, a:hover, a:focus {
 	font-size: 16px;
 	font-size: 1.6rem;
 	letter-spacing: 0.03rem;
-}
+  }}
 
 /* PLAYER */
 
