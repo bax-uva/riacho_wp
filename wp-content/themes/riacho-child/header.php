@@ -43,7 +43,7 @@
 				    <span class="icon-bar"></span>
 				    <span class="icon-bar"></span>
 				  </button>
-					<a href="<?php echo get_template_directory_uri() . '/images/riacho_big.gif'; ?>" data-featherlight="image" data-featherlight-loading="<img src='<?php echo get_template_directory_uri() . '/images/ajax-loader.gif'; ?>'/>" data-featherlight-iframewidth="1000" id="link_big_gif"><img src="https://riacho.me/wp-content/uploads/2017/08/logo-riacho-gif-vetorizado-mini2.gif" id="riachogif"  style="margin: 15px 10px 0 20px; width: 140px;"/><img src="<?php echo get_template_directory_uri() . '/images/menu/logo_x_40.png'; ?>" id="menu-typ-riacho"/></a>
+					<a href="https://riacho.me/?random" class="skipfix_hjs"><img src="https://riacho.me/wp-content/uploads/2018/02/riachito-6.gif" id="riachogif"  style="margin: 15px 10px 0 20px; width: 100px;border-radius: 150px;"/><img src="<?php echo get_template_directory_uri() . '/images/menu/logo_x_40.png'; ?>" id="menu-typ-riacho"/></a>
 				</div>
 				<div id="navbar" class="navbar-collapse collapse">
 				  <ul class="nav navbar-nav">
