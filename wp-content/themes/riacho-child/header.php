@@ -47,10 +47,14 @@
 				</div>
 				<div id="navbar" class="navbar-collapse collapse">
 				  <ul class="nav navbar-nav">
-                    <li class="menu-item"><a href="<?php echo esc_url( home_url( '/impressos' ) ); ?>" title="Impressos - riacho"><h1>IMPRESSOS</h1></a></li>
-                    <li class="menu-item"><a href="<?php echo esc_url( home_url( '/animacao' ) ); ?>" title="Animação - riacho"><h1>ANIMAÇÃO</h1></a></li>
-					<li class="menu-item"><a href="<?php echo esc_url( home_url( '/noticias' ) ); ?>" title="Notícias - riacho"><h1>NOTÍCIAS</h1></a></li>
-					<li class="menu-item"><a href="<?php echo esc_url( home_url( '/somos' ) ); ?>" title="Somos - riacho"><h1>SOMOS</h1></a></li>
+                    <li class="menu-item"><a href="<?php echo esc_url( home_url( '/impressos' ) ); ?>" title="Impressos - riacho"><img src="<?php echo get_template_directory_uri() . '/images/menu/impressos.png'; ?>" class="m_hover_imgs" id="impressos" /></a></li>
+
+                   	<li class="menu-item"><a href="<?php echo esc_url( home_url( '/animacao' ) ); ?>" title="Animação - riacho"><img src="<?php echo get_template_directory_uri() . '/images/menu/animacao.png'; ?>" class="m_hover_imgs" id="animacao" /></a></li>
+
+				    <li class="menu-item"><a href="<?php echo esc_url( home_url( '/noticias' ) ); ?>" title="Notícias - riacho"><img src="<?php echo get_template_directory_uri() . '/images/menu/noticias.png'; ?>" class="m_hover_imgs" id="noticias" /></a></li>
+
+				    <li class="menu-item"><a href="<?php echo esc_url( home_url( '/somos' ) ); ?>" title="Somos - riacho"><img src="<?php echo get_template_directory_uri() . '/images/menu/somos.png'; ?>" class="m_hover_imgs" id="somos" /></a></li>
+
                     <li class="menu-item">
                       <a href="<?php echo esc_url( home_url( '/radio' ) ); ?>"  class="skipfix_hjs"> <img src="https://www.riacho.me/wp-content/themes/riacho-child/images/radio-favicon.png" style="width:1.5em; border-top:1em;" /></a>
 					</li>
