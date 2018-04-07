@@ -322,7 +322,7 @@ get_header(); ?>
 			<div class="Table_01 hidden-xs">
 				
 				<div class="riachogif_">
-                  <a href="<?php echo esc_url( home_url( '/somos' ) ); ?>">
+                  <a href="<?php echo esc_url( home_url( '/impressos' ) ); ?>">
 					<img src="<?php echo bloginfo('stylesheet_directory') . '/images/home/riacho_logo.png' ?>" width="243" height="67" alt="" />
 					<img id="tela_inicial_riachogif" style="margin-top:5px; margin-left: 10px;" src="<?php echo bloginfo('stylesheet_directory') . '/images/home/riacho.gif' ?>" width="216" height="128" alt="" /></a>
 				</div>
