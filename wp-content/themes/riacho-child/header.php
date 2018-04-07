@@ -49,9 +49,11 @@
 				  <ul class="nav navbar-nav">
                     <li class="menu-item"><a href="<?php echo esc_url( home_url( '/impressos' ) ); ?>" title="Impressos - riacho"><h1>IMPRESSOS</h1></a></li>
                     <li class="menu-item"><a href="<?php echo esc_url( home_url( '/animacao' ) ); ?>" title="Animação - riacho"><h1>ANIMAÇÃO</h1></a></li>
-					<li class="menu-item"><a href="<?php echo esc_url( home_url( '/radio' ) ); ?>" title="Rádio Riacho"><h1>RÁDIO</h1></a></li>
 					<li class="menu-item"><a href="<?php echo esc_url( home_url( '/noticias' ) ); ?>" title="Notícias - riacho"><h1>NOTÍCIAS</h1></a></li>
 					<li class="menu-item"><a href="<?php echo esc_url( home_url( '/somos' ) ); ?>" title="Somos - riacho"><h1>SOMOS</h1></a></li>
+                    <li class="menu-item">
+                      <a href="<?php echo esc_url( home_url( '/radio' ) ); ?>"  class="skipfix_hjs"> <img src="https://www.riacho.me/wp-content/themes/riacho-child/images/radio-favicon.png" style="width:1.5em; border-top:1em;" /></a>
+					</li>
 					<li class="menu-item">
                       <a href="http://www.facebook.com/riacho.me" class="skipfix_hjs">
                         <img src="https://www.riacho.me/wp-content/themes/riacho-child/images/fbfav.png" style="width:1.5em; border-top:1em;"/></a>
@@ -60,6 +62,7 @@
                       <a href="https://riacho.me/feed"  class="skipfix_hjs">
                         <img src="https://www.riacho.me/wp-content/themes/riacho-child/images/RSS-iconpb.png" style="width:1.5em; border-top:1em;" /></a>
 					</li>
+                    
 				  </ul>
 				  <!--div class="nav navbar-nav navbar-right">
 				    <div id="controls"><i style="display:none;" id="play-toggle" class="material-icons">play_arrow</i><iframe width="0" height="0" src="https://www.mixcloud.com/widget/iframe/?feed=https%3A%2F%2Fwww.mixcloud.com%2Fzir%2Fmarlui-miranda-especial-ihu-20-anos%2F&hide_cover=1&mini=1&hide_artwork=1" frameborder="0" id="mixcloud-placeholder"></iframe>
