@@ -1180,6 +1180,10 @@ a, a:hover, a:focus {
 	}
 }
 @media (min-width: 768px) {
+  
+  .site-header {
+    margin-top: 2em;
+  }
 	.site-content {
 		margin-top: 125px;
 	}
