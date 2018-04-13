@@ -1174,13 +1174,16 @@ a, a:hover, a:focus {
 	#bodycontainer {
       width: 90%;
 	}
-	.navbar-riacho > .container {
+	
+}
+@media (min-width: 768px) {
+  .navbar-riacho > .container {
         display: flex;
       margin-top: 0.5em;
       align-items: center;
 	}
-}
-@media (min-width: 768px) {
+  
+  
   .navbar-riacho {
   margin-top: 2em;
   }
