@@ -412,6 +412,7 @@ table {
 	width: 100%;
 }
 
+
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
@@ -607,6 +608,7 @@ a:active {
 	.main-navigation ul {
 		display: block;
 	}
+ 
   p {
     text-align: justify;
     text-justify: auto;
@@ -1161,6 +1163,7 @@ a, a:hover, a:focus {
 	#riachogif {
 		margin-left: 15px;
 		display: none;
+      
 	} 
 }
 
@@ -1173,9 +1176,8 @@ a, a:hover, a:focus {
 	}
 	.navbar-riacho > .container {
         display: flex;
-		padding-left: 170px;
       margin-top: 0.5em;
-      align-content: flex-end;
+      align-items: center;
 	}
 }
 @media (min-width: 768px) {
@@ -1183,10 +1185,6 @@ a, a:hover, a:focus {
   margin-top: 2em;
   }
   
-	.navbar-riacho .navbar-header{
-		margin-left: -170px;
-		margin-top: -20px;
-	}
   .navbar-header {
     display: flex;
   }
