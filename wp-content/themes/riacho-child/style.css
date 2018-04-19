@@ -533,9 +533,16 @@ a:active {
 ## Menus
 --------------------------------------------------------------*/
 
-#impressos, #animacao, #noticias, #somos {
+#impressos, #noticias, #somos {
   max-width: 100%;
-  max-height: 30px;
+  max-height: 40px;
+  padding: 0.5em;
+}
+
+#animacao {
+  max-width: 100%;
+  max-height: 50px;
+  padding: 0.5em;
 }
 
 .main-navigation {
