@@ -913,7 +913,7 @@ a, a:hover, a:focus {
 
 .entry-title {
 	margin-bottom:0;
-	font-weight: normal;
+	font-weight: 600;
 }
 
 .entry-title a:hover {
