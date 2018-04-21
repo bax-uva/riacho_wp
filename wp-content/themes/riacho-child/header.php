@@ -47,10 +47,10 @@
 				</div>
 				<div id="navbar" class="navbar-collapse collapse">
 				  <ul class="nav navbar-nav">
-                    <li class="menu-item"><a href="<?php echo esc_url( home_url( '/impressos' ) ); ?>" title="Impressos - riacho"><img src="<?php bloginfo('stylesheet_directory');?>/images/menu/impressos-w-sm.png" id="impressos" /></a></li>
-                    <li class="menu-item"><a href="<?php echo esc_url( home_url( '/animacao' ) ); ?>" title="Animação - riacho"><img src="<?php bloginfo('stylesheet_directory');?>/images/menu/animacao-w.png"  id="animacao" /></a></li>
-                    <li class="menu-item"><a href="<?php echo esc_url( home_url( '/noticias' ) ); ?>" title="Notícias - riacho"><img src="<?php bloginfo('stylesheet_directory');?>/images/menu/noticias-w-sm.png" id="noticias"/></a></li>
-                    <li class="menu-item"><a href="<?php echo esc_url( home_url( '/somos' ) ); ?>" title="Somos - riacho"><img src="<?php bloginfo('stylesheet_directory');?>/images/menu/somos-w.png" id="somos" /></a></li>
+                    <li class="menu-item"><a href="<?php echo esc_url( home_url( '/impressos' ) ); ?>" title="Impressos - riacho"><img src="<?php bloginfo('stylesheet_directory');?>/images/menu/impressos-p-sm.png" id="impressos" /></a></li>
+                    <li class="menu-item"><a href="<?php echo esc_url( home_url( '/animacao' ) ); ?>" title="Animação - riacho"><img src="<?php bloginfo('stylesheet_directory');?>/images/menu/animacao-p.png"  id="animacao" /></a></li>
+                    <li class="menu-item"><a href="<?php echo esc_url( home_url( '/noticias' ) ); ?>" title="Notícias - riacho"><img src="<?php bloginfo('stylesheet_directory');?>/images/menu/noticias-p-sm.png" id="noticias"/></a></li>
+                    <li class="menu-item"><a href="<?php echo esc_url( home_url( '/somos' ) ); ?>" title="Somos - riacho"><img src="<?php bloginfo('stylesheet_directory');?>/images/menu/somos-p.png" id="somos" /></a></li>
                     <li class="menu-item"><a href="<?php echo esc_url( home_url( '/radio' ) ); ?>" > <img src="<?php bloginfo('stylesheet_directory');?>/images/radio-favicon.png" style="width:1.5em; border-top:1em;" /></a>
 					</li>
 					
