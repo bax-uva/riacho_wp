@@ -51,13 +51,11 @@
                     <li class="menu-item"><a href="<?php echo esc_url( home_url( '/animacao' ) ); ?>" title="Animação - riacho"><img src="<?php bloginfo('stylesheet_directory');?>/images/menu/anim.png" id="anim" /></a></li>
                     <li class="menu-item"><a href="<?php echo esc_url( home_url( '/noticias' ) ); ?>" title="Notícias - riacho"><img src="<?php bloginfo('stylesheet_directory');?>/images/menu/noti.png" id="noti"/></a></li>
                     <li class="menu-item"><a href="<?php echo esc_url( home_url( '/somos' ) ); ?>" title="Somos - riacho"><img src="<?php bloginfo('stylesheet_directory');?>/images/menu/som.png" id="som" /></a></li>
-                    <li class="menu-item"><a href="<?php echo esc_url( home_url( '/radio' ) ); ?>" > <img src="<?php bloginfo('stylesheet_directory');?>/images/radio-favicon.png" style="width:1.5em; border-top:1em;" /></a>
+                    <li class="menu-item"><a href="<?php echo esc_url( home_url( '/radio' ) ); ?>" > <img src="<?php bloginfo('stylesheet_directory');?>/images/radio-favicon.png" style="width:1.5em; margin: 1em 0 1em 0;" /></a>
 					</li>
-					
-                    <li class="menu-item"><a href="http://www.facebook.com/riacho.me"><img src="https://www.riacho.me/wp-content/themes/riacho-child/images/fbfav.png" style="width:1.5em; border-top:1em;"/></a>
+                    <li class="menu-item"><a href="http://www.facebook.com/riacho.me"><img src="https://www.riacho.me/wp-content/themes/riacho-child/images/fbfav.png" style="width:1.5em; margin: 1em 0 1em 0;"/></a>
                     </li>
-                    
-                    <li class="menu-item"><a href="https://riacho.me/feed"><img src="https://www.riacho.me/wp-content/themes/riacho-child/images/RSS-iconpb.png" style="width:1.5em; border-top:1em;" /></a>
+                    <li class="menu-item"><a href="https://riacho.me/feed"><img src="https://www.riacho.me/wp-content/themes/riacho-child/images/RSS-iconpb.png" style="width:1.5em; margin: 1em 0 1em 0;" /></a>
 					</li>
                     
 				  </ul>
