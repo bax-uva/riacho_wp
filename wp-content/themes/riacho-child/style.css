@@ -516,11 +516,14 @@ a {
 
 article a {
   text-decoration: underline;
+  color: #21759b;
 }
-
+article a:hover {
+  text-decoration: none;
+}
 a:focus,
 a:active {
-	color: #FEC400;
+	color: #21759b;
 }
 
 a:focus {
@@ -1137,7 +1140,7 @@ a, a:hover, a:focus {
 .footer-tag {
 	font-size: 13px;
 	font-size: 1.3rem;
-	color: #95D7F2;
+	color: #21759b;
 	margin-right: 10px;
 }
 
@@ -1145,7 +1148,7 @@ a, a:hover, a:focus {
 	font-size: 23px;
 	font-size: 2.3rem;
 	margin-right: 12px;
-	color: #4169E1;
+	color: #21759b;
 }
 
 
