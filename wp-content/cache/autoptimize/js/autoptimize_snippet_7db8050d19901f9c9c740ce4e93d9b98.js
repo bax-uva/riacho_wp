@@ -1,5 +1,0 @@
-jQuery(document).ready(function($){var
-History=window.History,State=History.getState(),$log=$('#log');$(document).on('click','.add-to-playlist',function(e){$('.strm_player').addClass("show");});$(document).on('click','a',function(e){var href=$(this).attr('href');if($(this).hasClass('skipfix_hjs')||((href.match(/^https?\:/i))&&(!href.match(document.domain))))
-{var extLink=href.replace(/^https?\:\/\//i,'');return extLink;}
-if($(this).attr('id')=='link_big_gif')return;if($(this).parents('#wpadminbar').length)return;e.preventDefault();var path=$(this).attr('href');var title="carregando...";History.pushState('ajax',title,path);});History.Adapter.bind(window,'statechange',function(){load_site_ajax();});function load_site_ajax(){State=History.getState();NProgress.start();var replace_id='#primary';if($('body').hasClass('home')){replace_id='#bodycontainer';$('body').removeClass('home');}
-$(replace_id).load(State.url+' '+replace_id,function(data){document.title=$(data).filter('title').text();NProgress.done();NProgress.remove();});}});

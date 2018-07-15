@@ -20,8 +20,6 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'WPCACHEHOME', '/Users/giselenogueira/Sites/riacho_wp/wp-content/plugins/wp-super-cache/' );
-define('WP_CACHE', true);
 define('DB_NAME', 'riacho_db');
 
 /** MySQL database username */
