@@ -989,6 +989,74 @@ a, a:hover, a:focus {
 	outline:none;
 }
 
+#teste {
+  border:1px solid pink;
+}
+#impressos-button {
+  width:80px;
+  height:30px;
+  background-image: url('http://localhost:8888/riacho_wp/wp-content/themes/riacho-child/images/menu/impr.png');
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  }
+
+#impressos-button:hover {
+  background-image: url('http://localhost:8888/riacho_wp/wp-content/themes/riacho-child/images/menu/impr_hover.png');
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#animacao-button {
+  width:80px;
+  height:30px;
+  background-image: url('http://localhost:8888/riacho_wp/wp-content/themes/riacho-child/images/menu/anim.png');
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#animacao-button:hover {
+  background-image: url('http://localhost:8888/riacho_wp/wp-content/themes/riacho-child/images/menu/anim_hover.png');
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#noticias-button {
+  width:80px;
+  height:30px;
+  background-image: url('http://localhost:8888/riacho_wp/wp-content/themes/riacho-child/images/menu/noti.png');
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#noticias-button:hover {
+  background-image: url('http://localhost:8888/riacho_wp/wp-content/themes/riacho-child/images/menu/noti_hover.png');
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#somos-button {
+  width:80px;
+  height:30px;
+  background-image: url('http://localhost:8888/riacho_wp/wp-content/themes/riacho-child/images/menu/som.png');
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#somos-button:hover {
+  background-image: url('http://localhost:8888/riacho_wp/wp-content/themes/riacho-child/images/menu/som_hover.png');
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
 
 @media (min-width: 768px) {
 	.navbar-riacho, 

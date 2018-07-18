@@ -8,7 +8,6 @@
  *
  * @package Riacho
  */
-
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -47,10 +46,15 @@
 				</div>
 				<div id="navbar" class="navbar-collapse collapse">
 				  <ul class="nav navbar-nav">
-                    <li class="menu-item"><a href="<?php echo esc_url( home_url( '/impressos' ) ); ?>" title="Impressos - riacho"><img src="<?php bloginfo('stylesheet_directory');?>/images/menu/impr.png" id="impr"/></a></li>
-                    <li class="menu-item"><a href="<?php echo esc_url( home_url( '/animacao' ) ); ?>" title="Animação - riacho"><img src="<?php bloginfo('stylesheet_directory');?>/images/menu/anim.png" id="anim" /></a></li>
-                    <li class="menu-item"><a href="<?php echo esc_url( home_url( '/noticias' ) ); ?>" title="Notícias - riacho"><img src="<?php bloginfo('stylesheet_directory');?>/images/menu/noti.png" id="noti"/></a></li>
-                    <li class="menu-item"><a href="<?php echo esc_url( home_url( '/somos' ) ); ?>" title="Somos - riacho"><img src="<?php bloginfo('stylesheet_directory');?>/images/menu/som.png" class="m_hover_imgs" id="som" /></a></li>
+                    
+                    <li id="impressos-button" class="menu-item"><a href="<?php echo esc_url( home_url( '/impressos' ) ); ?>" title="Impressos - riacho"></a></li>
+                    
+                    <li id="animacao-button" class="menu-item"><a href="<?php echo esc_url( home_url( '/animacao' ) ); ?>" title="Animação - riacho"></a></li>
+                    
+                    <li id="noticias-button" class="menu-item"><a href="<?php echo esc_url( home_url( '/noticias' ) ); ?>" title="Notícias - riacho"></a></li>
+                    
+                    <li id="somos-button" class="menu-item"><a href="<?php echo esc_url( home_url( '/somos' ) ); ?>" title="Somos - riacho"></a></li>
+                    
                     <li class="menu-item"><a href="<?php echo esc_url( home_url( '/radio' ) ); ?>" > <img src="<?php bloginfo('stylesheet_directory');?>/images/radio-favicon.png" style="width:1.5em; margin: 1em 0 1em 0;" /></a>
 					</li>
                     <li class="menu-item"><a href="http://www.facebook.com/riacho.me"><img src="https://www.riacho.me/wp-content/themes/riacho-child/images/fbfav.png" style="width:1.5em; margin: 1em 0 1em 0;"/></a>
@@ -69,4 +73,4 @@
 		</header><!-- #masthead -->
 	<?php endif; ?>
 
-	<div id="content" class="site-content">
+<div id="content" class="site-content">
