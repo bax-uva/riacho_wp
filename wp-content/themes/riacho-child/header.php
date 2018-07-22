@@ -47,19 +47,19 @@
 				<div id="navbar" class="navbar-collapse collapse">
 				  <ul class="nav navbar-nav">
                     
-                    <a href="<?php echo esc_url( home_url( '/impressos' ) ); ?>" title="Impressos - riacho"><li id="impressos-button" class="menu-item"></li></a>
+                    <li id="impressos-button" class="menu-item"><a href="<?php echo esc_url( home_url( '/impressos' ) ); ?>" title="Impressos - riacho"></a></li>
                     
-                    <a href="<?php echo esc_url( home_url( '/animacao' ) ); ?>" title="Animação - riacho"><li id="animacao-button" class="menu-item"></li></a>
+                    <li id="animacao-button" class="menu-item"><a href="<?php echo esc_url( home_url( '/animacao' ) ); ?>" title="Animação - riacho"></a></li>
                     
-                    <a href="<?php echo esc_url( home_url( '/noticias' ) ); ?>" title="Notícias - riacho"><li id="noticias-button" class="menu-item"></li></a>
+                    <li id="noticias-button" class="menu-item"><a href="<?php echo esc_url( home_url( '/noticias' ) ); ?>" title="Notícias - riacho"></a></li>
                     
-                    <a href="<?php echo esc_url( home_url( '/somos' ) ); ?>" title="Somos - riacho"><li id="somos-button" class="menu-item"></li></a>
+                    <li id="somos-button" class="menu-item"><a href="<?php echo esc_url( home_url( '/somos' ) ); ?>" title="Somos - riacho"></a></li>
                     
-                    <li id="favicon-button" class="menu-item"><a href="<?php echo esc_url( home_url( '/radio' ) ); ?>" > <img src="<?php bloginfo('stylesheet_directory');?>/images/radio-favicon.png" style="width:1.5em;" /></a>
+                    <li class="menu-item"><a href="<?php echo esc_url( home_url( '/radio' ) ); ?>" > <img src="<?php bloginfo('stylesheet_directory');?>/images/radio-favicon.png" style="width:1.5em;" /></a>
 					</li>
-                    <li id="favicon-button" class="menu-item"><a href="http://www.facebook.com/riacho.me"><img src="https://www.riacho.me/wp-content/themes/riacho-child/images/fbfav.png" style="width:1.5em; margin:"/></a>
+                    <li class="menu-item"><a href="http://www.facebook.com/riacho.me"><img src="https://www.riacho.me/wp-content/themes/riacho-child/images/fbfav.png" style="width:1.5em;"/></a>
                     </li>
-                    <li id="favicon-button" class="menu-item"><a href="https://riacho.me/feed"><img src="https://www.riacho.me/wp-content/themes/riacho-child/images/RSS-iconpb.png" style="width:1.5em;" /></a>
+                    <li class="menu-item"><a href="https://riacho.me/feed"><img src="https://www.riacho.me/wp-content/themes/riacho-child/images/RSS-iconpb.png" style="width:1.5em;" /></a>
 					</li>
                     
 				  </ul>
