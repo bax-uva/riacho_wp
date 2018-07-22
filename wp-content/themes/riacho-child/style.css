@@ -777,6 +777,26 @@ a, a:hover, a:focus {
 	background-position: center center;
 }
 @media (min-width: 768px) {
+  .menu-item {
+  margin:0.2em;
+    
+}
+  #impressos-button {
+    width: 150px;
+  }
+  
+  #animacao-button {
+    width: 150px;
+  }
+  #noticias-button {
+    width: 150px;
+    max-height: 25px;
+  }
+  #somos-button {
+    width: 150px;
+    max-height: 25px;
+  }
+  
 	.navbar-riacho, .navbar-riacho .navbar-nav>li>a:hover {}
 	#menu-typ-riacho {
 		display: none;

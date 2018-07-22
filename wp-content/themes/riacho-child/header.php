@@ -47,13 +47,13 @@
 				<div id="navbar" class="navbar-collapse collapse">
 				  <ul class="nav navbar-nav">
                     
-                    <li id="impressos-button" class="menu-item"><a href="<?php echo esc_url( home_url( '/impressos' ) ); ?>" title="Impressos - riacho"></a></li>
+                    <a href="<?php echo esc_url( home_url( '/impressos' ) ); ?>" title="Impressos - riacho"><li id="impressos-button" class="menu-item"></li></a>
                     
-                    <li id="animacao-button" class="menu-item"><a href="<?php echo esc_url( home_url( '/animacao' ) ); ?>" title="Animação - riacho"></a></li>
+                    <a href="<?php echo esc_url( home_url( '/animacao' ) ); ?>" title="Animação - riacho"><li id="animacao-button" class="menu-item"></li></a>
                     
-                    <li id="noticias-button" class="menu-item"><a href="<?php echo esc_url( home_url( '/noticias' ) ); ?>" title="Notícias - riacho"></a></li>
+                    <a href="<?php echo esc_url( home_url( '/noticias' ) ); ?>" title="Notícias - riacho"><li id="noticias-button" class="menu-item"></li></a>
                     
-                    <li id="somos-button" class="menu-item"><a href="<?php echo esc_url( home_url( '/somos' ) ); ?>" title="Somos - riacho"></a></li>
+                    <a href="<?php echo esc_url( home_url( '/somos' ) ); ?>" title="Somos - riacho"><li id="somos-button" class="menu-item"></li></a>
                     
                     <li class="menu-item"><a href="<?php echo esc_url( home_url( '/radio' ) ); ?>" > <img src="<?php bloginfo('stylesheet_directory');?>/images/radio-favicon.png" style="width:1.5em;" /></a>
 					</li>
