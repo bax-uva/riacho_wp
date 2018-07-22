@@ -778,23 +778,27 @@ a, a:hover, a:focus {
 }
 @media (min-width: 768px) {
   .menu-item {
-  margin:0.2em;
+  margin:0.5em;
     
 }
   #impressos-button {
-    width: 150px;
+    height: 30px;
+    width: 120px;
   }
   
   #animacao-button {
-    width: 150px;
+    height: 30px;
+    width: 120px;
+    margin-left: 1.2em;
   }
   #noticias-button {
-    width: 150px;
-    max-height: 25px;
+    height: 20px;
+    width: 120px;
+        margin-left: 1em;
   }
   #somos-button {
-    width: 150px;
-    max-height: 25px;
+    height: 20px;
+    width: 120px;
   }
   
 	.navbar-riacho, .navbar-riacho .navbar-nav>li>a:hover {}
