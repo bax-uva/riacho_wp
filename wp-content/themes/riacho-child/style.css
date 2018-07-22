@@ -723,13 +723,13 @@ a, a:hover, a:focus {
 #impressos-button {
 	width: 120px;
 	height: 30px;
-	background-image: url('http://localhost:8888/riacho_wp/wp-content/themes/riacho-child/images/menu/impr.png');
+	background-image: url('https://localhost:8888/riacho_wp/wp-content/themes/riacho-child/images/menu/impr.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center center;
 }
 #impressos-button:hover {
-	background-image: url('http://localhost:8888/riacho_wp/wp-content/themes/riacho-child/images/menu/impr_hover.png');
+	background-image: url('https://localhost:8888/riacho_wp/wp-content/themes/riacho-child/images/menu/impr_hover.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -737,13 +737,13 @@ a, a:hover, a:focus {
 #animacao-button {
 	width: 110px;
 	height: 30px;
-	background-image: url('http://localhost:8888/riacho_wp/wp-content/themes/riacho-child/images/menu/anim.png');
+	background-image: url('https://localhost:8888/riacho_wp/wp-content/themes/riacho-child/images/menu/anim.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center center;
 }
 #animacao-button:hover {
-	background-image: url('http://localhost:8888/riacho_wp/wp-content/themes/riacho-child/images/menu/anim_hover.png');
+	background-image: url('https://localhost:8888/riacho_wp/wp-content/themes/riacho-child/images/menu/anim_hover.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -751,13 +751,13 @@ a, a:hover, a:focus {
 #noticias-button {
 	width: 90px;
 	height: 30px;
-	background-image: url('http://localhost:8888/riacho_wp/wp-content/themes/riacho-child/images/menu/noti.png');
+	background-image: url('https://localhost:8888/riacho_wp/wp-content/themes/riacho-child/images/menu/noti.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center center;
 }
 #noticias-button:hover {
-	background-image: url('http://localhost:8888/riacho_wp/wp-content/themes/riacho-child/images/menu/noti_hover.png');
+	background-image: url('https://localhost:8888/riacho_wp/wp-content/themes/riacho-child/images/menu/noti_hover.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -765,13 +765,13 @@ a, a:hover, a:focus {
 #somos-button {
 	width: 80px;
 	height: 30px;
-	background-image: url('http://localhost:8888/riacho_wp/wp-content/themes/riacho-child/images/menu/som.png');
+	background-image: url('https://localhost:8888/riacho_wp/wp-content/themes/riacho-child/images/menu/som.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center center;
 }
 #somos-button:hover {
-	background-image: url('http://localhost:8888/riacho_wp/wp-content/themes/riacho-child/images/menu/som_hover.png');
+	background-image: url('https://localhost:8888/riacho_wp/wp-content/themes/riacho-child/images/menu/som_hover.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center center;
