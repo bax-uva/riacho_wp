@@ -869,7 +869,7 @@ a, a:hover, a:focus {
 .livros-item-title, .animacao-item-title, .radio-item-title {
 	color: #fff;
 	margin-top: 5px;
-	font-size: 1.4em;
+	font-size: 1.15em;
 	font-family: 'Roboto', sans-serif;
 	text-transform: uppercase;
 }
@@ -906,7 +906,7 @@ a, a:hover, a:focus {
 	font-weight: normal;
 	margin-top: -2px;
 	font-size: 14px;
-	font-size: 1.2rem;
+	font-size: 1.1rem;
 	float: right;
 	text-align: right;
 }
