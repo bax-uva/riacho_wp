@@ -844,7 +844,7 @@ a, a:hover, a:focus {
 /* Archives */
 
 .livros-item, .radio-item {
-	min-height: 285px;
+	min-height: 300px;
 	margin-bottom: 15px;
 	text-align: center;
 }
