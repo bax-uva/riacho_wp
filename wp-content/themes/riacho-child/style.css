@@ -716,7 +716,7 @@ a, a:hover, a:focus {
 	border: 1px solid pink;
 }
 .menu-item {
-  margin:0.5em;
+	margin: 0.5em;
 }
 #impressos-button {
 	width: 120px;
@@ -775,30 +775,27 @@ a, a:hover, a:focus {
 	background-position: center center;
 }
 @media (min-width: 768px) {
-  .menu-item {
-  margin:0.5em;
-    
-}
-  #impressos-button {
-    height: 30px;
-    width: 120px;
-  }
-  
-  #animacao-button {
-    height: 30px;
-    width: 120px;
-    margin-left: 1.2em;
-  }
-  #noticias-button {
-    height: 20px;
-    width: 120px;
-        margin-left: 1em;
-  }
-  #somos-button {
-    height: 20px;
-    width: 120px;
-  }
-  
+	.menu-item {
+		margin: 0.5em;
+	}
+	#impressos-button {
+		height: 30px;
+		width: 120px;
+	}
+	#animacao-button {
+		height: 30px;
+		width: 120px;
+		margin-left: 1.2em;
+	}
+	#noticias-button {
+		height: 20px;
+		width: 120px;
+		margin-left: 1em;
+	}
+	#somos-button {
+		height: 20px;
+		width: 120px;
+	}
 	.navbar-riacho, .navbar-riacho .navbar-nav>li>a:hover {}
 	#menu-typ-riacho {
 		display: none;
@@ -869,9 +866,10 @@ a, a:hover, a:focus {
 .livros-item-title, .animacao-item-title, .radio-item-title {
 	color: #fff;
 	margin-top: 5px;
-	font-size: 1.15em;
+	font-size: 1em;
 	font-family: 'Roboto', sans-serif;
 	text-transform: uppercase;
+    font-weight: bolder;
 }
 .livros-item-title {
 	line-height: 18px;
@@ -909,6 +907,7 @@ a, a:hover, a:focus {
 	font-size: 1.1rem;
 	float: right;
 	text-align: right;
+    font-weight: normal;
 }
 .radio-duracao, .animacao-genero {
 	text-align: center;
