@@ -287,7 +287,7 @@ get_header(); ?>
 
 				$.preloadImages("radio.png","impresso.png","novas.png","anima.png","somos.png");
 
-				
+
 				$(".hover_imgs").hover(function(){
 					var image = $(this);
 					image.attr('src', "<?php echo bloginfo('stylesheet_directory') . '/images/home/' ?>" + image.attr('id') +  ".png");
@@ -302,7 +302,7 @@ get_header(); ?>
 				});
 			});
 
-		
+
 			</script>
 
 

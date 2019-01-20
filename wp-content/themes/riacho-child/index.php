@@ -287,7 +287,7 @@ get_header(); ?>
 
 				$.preloadImages("radio.png","impresso.png","novas.png","anima.png","somos.png");
 
-				
+
 				$(".hover_imgs").hover(function(){
 					var image = $(this);
 					image.attr('src', "<?php echo bloginfo('stylesheet_directory') . '/images/home/' ?>" + image.attr('id') +  ".png");
@@ -302,31 +302,38 @@ get_header(); ?>
 				});
 			});
 
-		
+
 			</script>
 
-
 			<div style="text-align:center;padding-top:10px;" class="visible-xs">
-
+ <ul class="nav navbar-nav">
 				<img src="<?php echo get_template_directory_uri() . '/images/menu/logo.png'; ?>" style="margin-bottom: 15px;"/><br />
 							<img src="<?php echo get_template_directory_uri() . '/images/menu/riacho_108.gif'; ?>" style="margin-bottom: 10px;" /><br/>
+              <a href="<?php echo esc_url( home_url( '/impressos' ) ); ?>" title="Impressos - riacho"><li id="impressos-button" class="menu-item"></li></a>
+              <a href="<?php echo esc_url( home_url( '/animacao' ) ); ?>" title="Animação - riacho"><li id="animacao-button" class="menu-item"></li></a>
+              <a href="<?php echo esc_url( home_url( '/noticias' ) ); ?>" title="Notícias - riacho"><li id="noticias-button" class="menu-item"></li></a>
+              <a href="<?php echo esc_url( home_url( '/somos' ) ); ?>" title="Somos - riacho"><li id="somos-button" class="menu-item"></li></a>
+              <li class="menu-item"><a href="<?php echo esc_url( home_url( '/radio' ) ); ?>" > <img src="<?php bloginfo('stylesheet_directory');?>/images/radio.svg" style="width:1.5em;" /></a>
+        </li>
+              <li class="menu-item"><a class="skipfix_hjs" href="https://www.facebook.com/riacho.me"><img src="<?php bloginfo('stylesheet_directory');?>/images/facebook.svg" style="width:1.5em;"/></a>
+              </li>
+              <li class="menu-item"><a class="skipfix_hjs" href="https://www.instagram.com/riacho.me"><img src="<?php bloginfo('stylesheet_directory');?>/images/instagram.svg" style="width:1.5em;" /></a>
 
-							<a href="<?php echo esc_url( home_url( '/impressos' ) ); ?>" title="Impressos"><h1>IMPRESSOS</h1></a><br>
-							<a href="<?php echo esc_url( home_url( '/noticias' ) ); ?>" title="Notícias"><h1>NOTÍCIAS</h1></a></li><br>
-							<a href="<?php echo esc_url( home_url( '/radio' ) ); ?>" title="Rádio"><h1>RÁDIO</h1></a></li><br>
-							<a href="<?php echo esc_url( home_url( '/animacao' ) ); ?>" title="Animação"><h1>ANIMAÇÃO</h1></a><br /><br>
-							<a href="<?php echo esc_url( home_url( '/somos' ) ); ?>" title="Somos"><h1>SOMOS</h1></a><br>
+              <li class="menu-item"><a href="https://riacho.me/feed"><img src="<?php bloginfo('stylesheet_directory');?>/images/rss.svg" style="width:1.5em;" /></a>
 
+
+        </li>
+      </ul>
 			</div>
 
 			<div class="Table_01 hidden-xs">
-				
+
 				<div class="riachogif_">
                   <a href="<?php echo esc_url( home_url( '/impressos' ) ); ?>">
 					<img src="<?php echo bloginfo('stylesheet_directory') . '/images/home/riacho_logo.png' ?>" width="243" height="67" alt="" />
 					<img id="tela_inicial_riachogif" style="margin-top:5px; margin-left: 10px;" src="<?php echo bloginfo('stylesheet_directory') . '/images/home/riacho.gif' ?>" width="216" height="128" alt="" /></a>
 				</div>
-				
+
 		</main><!-- #main -->
 	</div><!-- #primary -->
 

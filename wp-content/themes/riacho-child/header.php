@@ -46,22 +46,23 @@
 				</div>
 				<div id="navbar" class="navbar-collapse collapse">
 				  <ul class="nav navbar-nav">
-                    
                     <a href="<?php echo esc_url( home_url( '/impressos' ) ); ?>" title="Impressos - riacho"><li id="impressos-button" class="menu-item"></li></a>
-                    
                     <a href="<?php echo esc_url( home_url( '/animacao' ) ); ?>" title="Animação - riacho"><li id="animacao-button" class="menu-item"></li></a>
-                    
                     <a href="<?php echo esc_url( home_url( '/noticias' ) ); ?>" title="Notícias - riacho"><li id="noticias-button" class="menu-item"></li></a>
-                    
+
                     <a href="<?php echo esc_url( home_url( '/somos' ) ); ?>" title="Somos - riacho"><li id="somos-button" class="menu-item"></li></a>
-                    
-                    <li class="menu-item"><a href="<?php echo esc_url( home_url( '/radio' ) ); ?>" > <img src="<?php bloginfo('stylesheet_directory');?>/images/radio-favicon.png" style="width:1.5em;" /></a>
+
+                    <li class="menu-item"><a href="<?php echo esc_url( home_url( '/radio' ) ); ?>" > <img src="<?php bloginfo('stylesheet_directory');?>/images/radio.svg" style="width:1.5em;" /></a>
 					</li>
-                    <li class="menu-item"><a href="http://www.facebook.com/riacho.me"><img src="https://www.riacho.me/wp-content/themes/riacho-child/images/fbfav.png" style="width:1.5em;"/></a>
+                    <li class="menu-item"><a class="skipfix_hjs" href="https://www.facebook.com/riacho.me"><img src="<?php bloginfo('stylesheet_directory');?>/images/facebook.svg" style="width:1.5em;"/></a>
                     </li>
-                    <li class="menu-item"><a href="https://riacho.me/feed"><img src="https://www.riacho.me/wp-content/themes/riacho-child/images/RSS-iconpb.png" style="width:1.5em;" /></a>
+										<li class="menu-item"><a class="skipfix_hjs" href="https://www.instagram.com/riacho.me"><img src="<?php bloginfo('stylesheet_directory');?>/images/instagram.svg" style="width:1.5em;" /></a>
+
+                    <li class="menu-item"><a href="https://riacho.me/feed"><img src="<?php bloginfo('stylesheet_directory');?>/images/rss.svg" style="width:1.5em;" /></a>
+
+
 					</li>
-                    
+
 				  </ul>
 				  <!--div class="nav navbar-nav navbar-right">
 				    <div id="controls"><i style="display:none;" id="play-toggle" class="material-icons">play_arrow</i><iframe width="0" height="0" src="https://www.mixcloud.com/widget/iframe/?feed=https%3A%2F%2Fwww.mixcloud.com%2Fzir%2Fmarlui-miranda-especial-ihu-20-anos%2F&hide_cover=1&mini=1&hide_artwork=1" frameborder="0" id="mixcloud-placeholder"></iframe>
